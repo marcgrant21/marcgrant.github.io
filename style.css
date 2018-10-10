@@ -1,0 +1,135 @@
+
+body{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.grid{
+  border: 2px solid white;
+  height: auto;
+  width:auto;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows:100px 100px;
+  padding: 10px;
+  background: White;
+}
+
+.head{
+  border: 2px solid lightblue;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display:flex;
+  justify-content: center;
+  background-color: lightblue;
+  padding-top:4px;
+  padding-left:430px;
+  padding-right:430px;
+  margin top:5px;
+  margin-bottom: 5px;
+}
+
+.box{
+  border: 2px solid black;
+  text-align: center;
+  width: 300px;
+  padding: 16px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.side{
+  border: 4px solid lightblue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: lightblue;
+  text-indent: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+
+.main{
+  border: 2px solid white;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top:5px;
+  text-indent: 10px;
+
+}
+
+.mmain1{
+  border-right: 6px solid white;
+  border-left: 6px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.image{
+  border: 1px;
+  border-radius: 100px;
+  height:225px;
+  width: 225px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+ .p{
+   display: flex;
+ }
+.c1{
+  border: 1px;
+  width: auto;
+}
+.c2{
+  border: 1px;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-left:40px;
+
+}
+
+
+.l{
+  display:flex;
+  flex-direction: column;
+  border-bottom: 2px solid LightGrey;
+  padding-bottom: 25px;
+}
+
+
+.space{
+  border: 2px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 25px;
+  display: flex;
+}
+
+.Para{
+  border: 1px;
+  padding-left: 130px;
+  padding-right: 50px;
+  word-wrap: break-word;
+  display: flex;
+}
+
+.graph{
+  border-bottom: 2px solid Aqua;
+  padding-left: 130px;
+  padding-right: 50px;
+  word-wrap: break-word;
+  padding-bottom: 40px;
+}
