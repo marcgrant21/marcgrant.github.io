@@ -55,12 +55,12 @@ body{
 }
 
 .main{
-  border: 2px solid white;
+  border: 2px solid red;
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 5;
-  background-color: white;
+  background-color: yellow;
   margin-left: 5px;
   margin-right: 20px;
   margin-top:5px;
@@ -101,11 +101,18 @@ body{
 
 }
 
+.c7{
+  border: 1px;
+  flex-wrap: wrap;
+  width: 1000%;
+  padding-left: 140px;
+
+}
 
 .l{
   display:flex;
   flex-direction: column;
-  border-bottom: 2px solid LightGrey;
+  border-bottom: 2px solid purple;
   padding-bottom: 25px;
 }
 
